@@ -13,7 +13,7 @@ public class QuickSort {
      * 
      */
     public static void main(String[] args){
-        int[] arr = {10,6,12,13,8,9,15,Integer.MAX_VALUE};
+        int[] arr = {5,1,1,2,0,0,Integer.MAX_VALUE};
 
         int l = 0, h = arr.length-1;
         quicksort(arr, l, h);

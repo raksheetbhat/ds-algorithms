@@ -1,0 +1,13 @@
+public class C {
+    /**
+    * time complexity:
+    * 
+    * 
+    * space:
+    * 
+    * 
+    */
+    public static void main(String[] args){
+
+    }
+}
