@@ -9,7 +9,7 @@ public class SortArrZeroOneTwo {
      * 
     */
     public static void main(String[] args){
-        int[] arr = {0,1,1,0,2,1,2,0,2};
+        int[] arr = {2,0,1};
 
         sort(arr);
         System.out.println(Arrays.toString(arr));
@@ -17,7 +17,7 @@ public class SortArrZeroOneTwo {
     public static void sort(int[] arr) {
         int l=0, mid=0, h=arr.length-1;
 
-        while(mid < h){
+        while(mid <= h){
             if(arr[mid]==0){
                 swap(arr, l, mid);
                 l++;
